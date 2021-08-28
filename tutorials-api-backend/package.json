@@ -1,0 +1,22 @@
+{
+  "name": "tutorials-api-backend",
+  "version": "1.0.0",
+  "description": "Restful API with Node.js, Express and MySQL back-end",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mysql",
+    "restapi"
+  ],
+  "author": "cse-in-tamil",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.0"
+  }
+}
