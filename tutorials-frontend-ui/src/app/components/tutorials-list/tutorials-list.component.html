@@ -1,0 +1,36 @@
+<div class="list row">
+    <div class="col-md-8">
+
+    </div>
+    <div class="col-md-6">
+    
+      <ul class="list-group">
+        <li
+          class="list-group-item"
+          *ngFor="let tutorial of tutorials"
+        >
+        
+          <div class="col-md-6">
+              <h4>Tutorial {{tutorial.id}}</h4>
+              <div>
+                <label><strong>Title:</strong></label> {{ tutorial.name }}
+              </div>
+              <div>
+                <label><strong>Level:</strong></label>
+                {{ tutorial.expertiselevel }}
+              </div>
+              <div>
+                <label><strong>Duration:</strong></label>
+                {{ tutorial.duration}}
+              </div>
+              <div>
+                  <label><strong>Benefits:</strong></label>
+                  {{ tutorial.benefits}}
+                </div>
+            </div>
+        </li>
+      </ul>
+
+    </div>
+
+  </div>
